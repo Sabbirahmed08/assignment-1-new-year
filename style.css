@@ -1,3 +1,44 @@
 body {
     font-family: "Poppins", sans-serif;
 }
+
+/* Common-style */
+.primary-color {
+    color: #FF0000;
+}
+
+/* Head-section */
+
+.header-background {
+    background-image: url(images/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    background-size: cover;
+    position: relative;
+}
+
+.header-texts {
+    color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /* top: 150px; */
+    text-align: center;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+
+}
+
+.header-texts h3 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 150px;
+
+}
+
+.header-texts h1 {
+    font-size: 95px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 1em;
+}
