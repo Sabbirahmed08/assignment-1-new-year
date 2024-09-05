@@ -24,7 +24,8 @@ body {
     position: absolute;
     /* top: 150px; */
     text-align: center;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 15px;
     z-index: 1;
 
 }
@@ -41,4 +42,30 @@ body {
     font-weight: 600;
     margin: 0;
     line-height: 1em;
+}
+
+/* Offer-section */
+.offer-section {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.offer-text h1 {
+    font-size: 82px;
+    margin: 0;
+}
+
+.offer-text p {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.offer-text h3 {
+    font-size: 42px;
+    margin-top: 0;
+}
+
+.offer-img img {
+    width: 700px;
+    margin-bottom: 75px;
 }
