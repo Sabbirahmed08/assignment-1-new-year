@@ -203,3 +203,81 @@ body {
 .img-with-text p {
     font-weight: 300;
 }
+
+/* awesome-portfolio*/
+.awesome-portfolio {
+    width: 1320px;
+    margin: 75px 0;
+}
+
+.awesome-text-section {
+    margin-bottom: 30px;
+}
+
+.awesome-text-section h6 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.awesome-text-section h2 {
+    font-size: 30px;
+    margin: 15px 0;
+}
+
+.awesome-text-section p {
+    font-weight: 300;
+    width: 60%;
+
+}
+
+.flex-style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-section {
+    margin-bottom: 25px;
+}
+
+/* Subscribe-newsletter */
+.subscribe-newsletter {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.07), rgba(255, 0, 0, 0.07));
+    width: 1320px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 75px 0;
+    margin-bottom: 75px;
+
+}
+
+.subscribe-newsletter h1 {
+    font-size: 35px;
+    margin: 15px 0;
+}
+
+.subscribe-newsletter p {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.8em;
+}
+
+.subscribe-newsletter input {
+    margin-top: 20px;
+    padding: 16px 80px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+}
+
+.special-button {
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    margin-left: -4px;
+}
