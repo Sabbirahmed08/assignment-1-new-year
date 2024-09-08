@@ -7,6 +7,16 @@ body {
     color: #FF0000;
 }
 
+.primary-button {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
 /* Head-section */
 
 .header-background {
@@ -46,8 +56,10 @@ body {
 
 /* Offer-section */
 .offer-section {
-    margin-top: 75px;
+    height: 700px;
+    width: 802px;
     text-align: center;
+    margin: 50px 265px;
 }
 
 .offer-text h1 {
@@ -58,6 +70,7 @@ body {
 .offer-text p {
     font-size: 22px;
     margin-bottom: 15px;
+    margin-top: 0;
 }
 
 .offer-text h3 {
@@ -65,7 +78,75 @@ body {
     margin-top: 0;
 }
 
-.offer-img img {
-    width: 700px;
-    margin-bottom: 75px;
+.offer-section img {
+    width: 600px;
+
+}
+
+/* midnight-billboard-section */
+.midnight-billboard-section {
+    background-image: url(images/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+
+.midnight-billboard-section img {
+    width: 300px;
+}
+
+.width-billboard-text {
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+}
+
+.billboard-text h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.billboard-text p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.billboard-text button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+
+}
+
+/* Destination-Part */
+.destination-part {
+    background-image: linear-gradient(rgba(255, 0, 0, 0.07), rgba(255, 0, 0, 0.07));
+    width: 1320px;
+    /* height: 482px; */
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+.destination-text {
+    padding: 120px 0;
+}
+
+.destination-text h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.destination-text>button {
+    margin-top: 20px;
 }
