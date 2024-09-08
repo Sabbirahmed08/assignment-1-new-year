@@ -135,6 +135,7 @@ body {
     /* height: 482px; */
     text-align: center;
     border-radius: 20px;
+    margin-bottom: 50px;
 
 }
 
@@ -149,4 +150,56 @@ body {
 
 .destination-text>button {
     margin-top: 20px;
+}
+
+/* bonus-part */
+.bonus-part {
+    margin-bottom: 50px;
+    padding: 25px 0;
+    width: 1320px;
+
+}
+
+.bonus-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coming-soon {
+    width: 33%;
+}
+
+.coming-soon h5 {
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.coming-soon h2 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.coming-soon p {
+    font-weight: 300;
+}
+
+.bonus-container>img {
+    width: 22%;
+    padding: 20px;
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.img-with-text {
+    width: 33%;
+}
+
+.img-with-text h2 {
+    font-size: 30px;
+}
+
+.img-with-text p {
+    font-weight: 300;
 }
