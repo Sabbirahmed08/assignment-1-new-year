@@ -281,3 +281,48 @@ body {
     border-radius: 0 25px 25px 0;
     margin-left: -4px;
 }
+
+/* Footer-part */
+footer {
+    width: 1320px;
+    padding: 100px 0;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+}
+
+.address-footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright-part {
+    display: flex;
+    justify-content: space-around;
+}
+
+.copyright-part button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.footer-social-icons {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.footer-social-icons img {
+    margin-left: 25px;
+}
+
+footer>hr {
+    width: 900px;
+    border: 1px solid rgba(196, 182, 187, 0.24);
+
+}
